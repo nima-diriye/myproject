@@ -13,9 +13,9 @@ class Sum
     
     }
 //function to get sum
-     function sum ($i , $j){
+     function sum ($i , $j, $k){
 
-        $sum =   $i + $j  ;
+        $sum =   $i + $j +$k;
 
         return $sum ;
 
@@ -33,7 +33,7 @@ class Sum
  
 // Create a new object
 $obj = new Sum;
- $sum = $obj->sum($_GET['x'],$_GET['y']);
+ $sum = $obj->sum($_GET['x'],$_GET['y'],$_GET['k']);
  header("Content-type: text/xml; charset=utf-8");
  echo $obj->createXml($sum);
 
