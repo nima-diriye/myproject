@@ -1,3 +1,5 @@
+//ADAN NIMA DIRIYE
+//P15/101917/2017
 <?php
 class Sum
 {
